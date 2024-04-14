@@ -1,6 +1,11 @@
+import Login from "./components/login/Login";
+import { useEffect } from "react";
+
 const App = () => {
   return (
-    <div className=''>App</div>
+    <div className=''>
+      <Login/>
+    </div>
   )
 }
 
