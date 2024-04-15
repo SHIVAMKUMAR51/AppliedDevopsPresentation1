@@ -96,7 +96,7 @@ const Login = () => {
         <form onSubmit={handleLogin}>
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
-          <button disabled={loading}>{loading ? "Loading" : "Sign In"}</button>
+          <button disabled={loading}>{loading ? "Loading" : "Log In"}</button>
         </form>
       </div>
       <div className="separator"></div>
